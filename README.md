@@ -1,6 +1,6 @@
-#Janele Leatham professional profile#
+Janele Leatham professional profile
 
-##Software Engineer##
+Software Engineer
 
 https://jleatham78.github.io/professional-profile/
 
