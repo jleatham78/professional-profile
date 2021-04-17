@@ -1,10 +1,11 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
-import Headshot from '../../assets/images/Headshot.png';
+import Navigation from '../../components/Navigation';
 
 const Hero = (props) => {
     return (
       <div>
+         <Navigation />
         <Jumbotron fluid>
           <Container fluid>
             <h1 className="display-3">Janele Leatham</h1>

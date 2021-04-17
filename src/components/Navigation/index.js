@@ -6,16 +6,16 @@ const Navbar = (props) => {
     <div>
       <Nav>
         <NavItem>
-          <NavLink href="#">About Me</NavLink>
+          <NavLink href="#about-me">About Me</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Portfolio</NavLink>
+          <NavLink href="#portfolio">Portfolio</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Resume</NavLink>
+          <NavLink href="resume">Resume</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink disabled href="#">Contact</NavLink>
+          <NavLink href="#contact-me">Contact</NavLink>
         </NavItem>
       </Nav>
       <hr />

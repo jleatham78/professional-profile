@@ -1,17 +1,29 @@
 import React from 'react';
-import Navigation from '../src/components/Navigation';
-import Hero from '../src/components/Jumbotron';
+import Hero from './components/Header';
 import Project from '../src/components/Project';
 import About from '../src/components/About';
+import Contact from '../src/components/Contact';
+import Footer from '../src/components/Footer';
+import Resume from '../src/components/Resume';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Navigation />
       <Hero />
+      <section id='about-me'>
       <About />
+        </section>
+        <section id='portfolio'>
       <Project />
+      </section>
+      <section id='resume'>
+        <Resume />
+      </section>
+      <section id='contact-me'>
+      <Contact />
+      </section>
+      <Footer />
     </div>
   );
 }
