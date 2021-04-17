@@ -1,10 +1,12 @@
 import React from 'react';
 import { Table, Badge } from 'reactstrap';
+import resume from '../../assets/images/resume.pdf';
 
 const Technologies = (props) => {
   return (
-      <div>
+          <div>
           <h1><Badge color='secondary'>Technologies</Badge></h1>
+          <a href={resume}>Resume</a>
       
     <Table borderless>
         
@@ -35,6 +37,7 @@ const Technologies = (props) => {
       </tbody>
     </Table>
     </div>
+
   );
 }
 

@@ -12,7 +12,7 @@ const Navbar = (props) => {
           <NavLink href="#portfolio">Portfolio</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="resume">Resume</NavLink>
+          <NavLink href="#resume">Resume</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#contact-me">Contact</NavLink>
